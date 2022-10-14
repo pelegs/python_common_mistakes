@@ -4,7 +4,7 @@
 !_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
 !_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
 !_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
-!_TAG_PROC_CWD	/home/pelegs/prog/python/python_for_c_programmers/	//
+!_TAG_PROC_CWD	/home/pelegs/prog/python/python_common_mistakes/	//
 !_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
@@ -40,7 +40,7 @@ e	examples.py	/^d, e = ['Hi', 'Hello']$/;"	v
 even_nums	examples.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
 jumping_nums	examples.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
 letters	examples.py	/^letters = ['a', 'b', 'c', 'd', 'e']$/;"	v
-lines_len	examples.py	/^    lines_len = {line.split()[0]: len(line.split()) for line in file.readlines()}$/;"	v
+lines_len	examples.py	/^    lines_len = {$/;"	v
 lst	examples.py	/^lst = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
 lst	examples.py	/^lst = [(n, l) for n in nums for l in letters]$/;"	v
 lst	examples.py	/^lst = [(n, l) for n, l in zip(nums, letters)]$/;"	v

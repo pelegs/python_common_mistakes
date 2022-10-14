@@ -304,5 +304,8 @@ print(devops_cols)
 # Create a dict which contains the first word of each line as key
 # and the length of each line as value.
 with open('example.txt', 'r') as file:
-    lines_len = {line.split()[0]: len(line.split()) for line in file.readlines()}
+    lines_len = {
+        line.split()[0]: len(line.split())
+        for line in file.readlines()
+    }
 print(lines_len)
