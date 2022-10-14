@@ -1,0 +1,69 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/pelegs/prog/python/python_for_c_programmers/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+a	examples.py	/^a = 'foo'$/;"	v
+a	examples.py	/^a = -1$/;"	v
+a	examples.py	/^a = 3.1$/;"	v
+a	examples.py	/^a = 30 # int$/;"	v
+a	examples.py	/^a = True and False$/;"	v
+a	examples.py	/^a = b = c = 0$/;"	v
+a	examples.py	/^a, b, c = (-50, 20, 'test')$/;"	v
+a	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+animals_list	examples.py	/^animals_list = ['Dog', 'Cat', 'Turtle', 'Rabbit', 'Bear', 'Tapir', 'Dolphin']$/;"	v
+animals_list	examples.py	/^animals_list = ['Tapir', 'Dog', 'Cat', 'Turtle', 'Bear']$/;"	v
+animals_list	examples.py	/^animals_list = ['Tapir', 'Dog', 'Cat', 'Turtle']$/;"	v
+arr	examples.py	/^arr = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
+b	examples.py	/^a, b, c = (-50, 20, 'test')$/;"	v
+b	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+b	examples.py	/^b = 'text'$/;"	v
+b	examples.py	/^b = 1 < 5$/;"	v
+b	examples.py	/^b = 1.337 # float$/;"	v
+b	examples.py	/^b = 3$/;"	v
+c	examples.py	/^a, b, c = (-50, 20, 'test')$/;"	v
+c	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+c	examples.py	/^c = a or b$/;"	v
+capitals	examples.py	/^capitals = {$/;"	v
+colors_list	examples.py	/^colors_list = ['Orange', 'Green', 'Blue', 'Purple', 'Pink', 'Red', 'White']$/;"	v
+d	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+d	examples.py	/^d, e = ['Hi', 'Hello']$/;"	v
+devops_cols	examples.py	/^devops_cols = {dev: col for dev, col in zip(devops_list, colors_list)}$/;"	v
+devops_list	examples.py	/^devops_list = ['Aaron', 'Alemseged', 'Emanuel', 'Frauke', 'Nehru', 'Peleg', 'Satya']$/;"	v
+e	examples.py	/^d, e = ['Hi', 'Hello']$/;"	v
+even_nums	examples.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
+jumping_nums	examples.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
+letters	examples.py	/^letters = ['a', 'b', 'c', 'd', 'e']$/;"	v
+lines_len	examples.py	/^    lines_len = {line.split()[0]: len(line.split()) for line in file.readlines()}$/;"	v
+lst	examples.py	/^lst = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
+lst	examples.py	/^lst = [(n, l) for n in nums for l in letters]$/;"	v
+lst	examples.py	/^lst = [(n, l) for n, l in zip(nums, letters)]$/;"	v
+lst	examples.py	/^lst = [1, 'a', True, 'cow', [0, 1, 2, 3], 2, somefunc, 5]$/;"	v
+lst	examples.py	/^lst = [1,2,3,4,5]$/;"	v
+mltxt1	examples.py	/^mltxt1 = """$/;"	v
+mltxt2	examples.py	/^mltxt2 = '''$/;"	v
+natlang	examples.py	/^natlang = {$/;"	v
+nums	examples.py	/^nums = [1, 2, 3, 4, 5]$/;"	v
+pi	examples.py	/^pi = 3.1415926535897932384626433 # another float$/;"	v
+somefunc	examples.py	/^def somefunc():$/;"	f
+st	examples.py	/^st = set([1, 2, 3, 1, 2, 1, 1, 3, 4, 5, 1, 2, 1, 1, 5])$/;"	v
+st2	examples.py	/^st2 = set([True, (1,1,1), (1,1,1), None, (1,1,1,1), False, (1,1,1), (1,1,1,1), True, None, None]/;"	v
+tup	examples.py	/^tup = (1, 5, 'b', False, (0, 0, 0), [1, 1, 1])$/;"	v
+txt	examples.py	/^    txt = file.read()$/;"	v
+txt	examples.py	/^    txt = file.readlines()$/;"	v
+txt	examples.py	/^txt = """$/;"	v
+txt1	examples.py	/^txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \\", must be escaped."$/;"	v
+txt2	examples.py	/^txt2 = 'I\\'m also a text! Here\\'s a quote: "bla bla bla".'$/;"	v
+word_count	examples.py	/^    word_count = [len(line.split()) for line in file.readlines()]$/;"	v
+word_count	examples.py	/^word_count = []$/;"	v
+words_list	examples.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo', 'aaa', 'ooo']$/;"	v
+words_list	examples.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
+x	examples.py	/^x = 64321277$/;"	v
+xs	examples.py	/^xs = [1, 2, 3, 4, 5, 6, 7]$/;"	v
+ys	examples.py	/^ys = [x**2 for x in xs]$/;"	v
