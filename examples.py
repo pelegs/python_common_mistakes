@@ -309,3 +309,25 @@ with open('example.txt', 'r') as file:
         for line in file.readlines()
     }
 print(lines_len)
+
+# ------------------------------------------------ #
+
+#################
+# main function #
+#################
+
+if __name__ == "__main__":
+    print('yay?')
+    # print(__name__)
+
+# Example without this
+import sys
+sys.path.append(".")
+import mylib as lib
+print(lib.func(2))
+
+# Example with this
+import sys
+sys.path.append(".")
+import mybetterlib as lib
+print(lib.func(2))

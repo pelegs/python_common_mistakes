@@ -38,8 +38,12 @@ devops_cols	examples.py	/^devops_cols = {dev: col for dev, col in zip(devops_lis
 devops_list	examples.py	/^devops_list = ['Aaron', 'Alemseged', 'Emanuel', 'Frauke', 'Nehru', 'Peleg', 'Satya']$/;"	v
 e	examples.py	/^d, e = ['Hi', 'Hello']$/;"	v
 even_nums	examples.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
+func	mybetterlib.py	/^def func(n):$/;"	f
+func	mylib.py	/^def func(n):$/;"	f
 jumping_nums	examples.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
 letters	examples.py	/^letters = ['a', 'b', 'c', 'd', 'e']$/;"	v
+lib	examples.py	/^import mybetterlib as lib$/;"	I	nameref:module:mybetterlib
+lib	examples.py	/^import mylib as lib$/;"	I	nameref:module:mylib
 lines_len	examples.py	/^    lines_len = {$/;"	v
 lst	examples.py	/^lst = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
 lst	examples.py	/^lst = [(n, l) for n in nums for l in letters]$/;"	v
