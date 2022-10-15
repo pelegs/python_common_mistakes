@@ -207,7 +207,7 @@ for country, city in capitals.items():
 # Type checking #
 #################
 
-# Not best practice (Liskov's substitution violation?)
+# Not best practice
 a = 3.1
 if type(a) == float:
     print(f'{a} is a float')
@@ -219,6 +219,14 @@ if isinstance(b, str):
     print(f'"{b}" is a string')
 else:
     print(f'{b} is not a string')
+
+# Inheritence
+# using type(x)==y might cause violation of Liskov substitution principle
+from collections import namedtuple
+Point = namedtuple('Point', ['x', 'y'])
+p = Point(3, -5)
+print(type(p) == tuple)
+print(isinstance(p, tuple))
 
 # ------------------------------------------------ #
 
@@ -320,14 +328,8 @@ if __name__ == "__main__":
     print('yay?')
     # print(__name__)
 
-# Example without this
+# Example
 import sys
 sys.path.append(".")
 import mylib as lib
-print(lib.func(2))
-
-# Example with this
-import sys
-sys.path.append(".")
-import mybetterlib as lib
 print(lib.func(2))

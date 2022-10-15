@@ -9,6 +9,7 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+Point	examples.py	/^Point = namedtuple('Point', ['x', 'y'])$/;"	v
 a	examples.py	/^a = 'foo'$/;"	v
 a	examples.py	/^a = -1$/;"	v
 a	examples.py	/^a = 3.1$/;"	v
@@ -41,8 +42,9 @@ even_nums	examples.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
 func	mybetterlib.py	/^def func(n):$/;"	f
 func	mylib.py	/^def func(n):$/;"	f
 jumping_nums	examples.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
+len	mybetterlib.py	/^    def len(self):$/;"	m	class:xstr
+len	mylib.py	/^    def len(self):$/;"	m	class:xstr
 letters	examples.py	/^letters = ['a', 'b', 'c', 'd', 'e']$/;"	v
-lib	examples.py	/^import mybetterlib as lib$/;"	I	nameref:module:mybetterlib
 lib	examples.py	/^import mylib as lib$/;"	I	nameref:module:mylib
 lines_len	examples.py	/^    lines_len = {$/;"	v
 lst	examples.py	/^lst = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
@@ -54,6 +56,7 @@ mltxt1	examples.py	/^mltxt1 = """$/;"	v
 mltxt2	examples.py	/^mltxt2 = '''$/;"	v
 natlang	examples.py	/^natlang = {$/;"	v
 nums	examples.py	/^nums = [1, 2, 3, 4, 5]$/;"	v
+p	examples.py	/^p = Point(3, -5)$/;"	v
 pi	examples.py	/^pi = 3.1415926535897932384626433 # another float$/;"	v
 somefunc	examples.py	/^def somefunc():$/;"	f
 st	examples.py	/^st = set([1, 2, 3, 1, 2, 1, 1, 3, 4, 5, 1, 2, 1, 1, 5])$/;"	v
@@ -70,4 +73,6 @@ words_list	examples.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo', 'aaa', 
 words_list	examples.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
 x	examples.py	/^x = 64321277$/;"	v
 xs	examples.py	/^xs = [1, 2, 3, 4, 5, 6, 7]$/;"	v
+xstr	mybetterlib.py	/^class xstr(UserString):$/;"	c
+xstr	mylib.py	/^class xstr(UserString):$/;"	c
 ys	examples.py	/^ys = [x**2 for x in xs]$/;"	v
