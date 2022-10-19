@@ -9,70 +9,100 @@
 !_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
 !_TAG_PROGRAM_URL	https://ctags.io/	/official site/
 !_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
-Point	examples.py	/^Point = namedtuple('Point', ['x', 'y'])$/;"	v
-a	examples.py	/^a = 'foo'$/;"	v
-a	examples.py	/^a = -1$/;"	v
-a	examples.py	/^a = 3.1$/;"	v
-a	examples.py	/^a = 30 # int$/;"	v
-a	examples.py	/^a = True and False$/;"	v
-a	examples.py	/^a = b = c = 0$/;"	v
-a	examples.py	/^a, b, c = (-50, 20, 'test')$/;"	v
-a	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
-animals_list	examples.py	/^animals_list = ['Dog', 'Cat', 'Turtle', 'Rabbit', 'Bear', 'Tapir', 'Dolphin']$/;"	v
-animals_list	examples.py	/^animals_list = ['Tapir', 'Dog', 'Cat', 'Turtle', 'Bear']$/;"	v
-animals_list	examples.py	/^animals_list = ['Tapir', 'Dog', 'Cat', 'Turtle']$/;"	v
-arr	examples.py	/^arr = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
-b	examples.py	/^a, b, c = (-50, 20, 'test')$/;"	v
-b	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
-b	examples.py	/^b = 'text'$/;"	v
-b	examples.py	/^b = 1 < 5$/;"	v
-b	examples.py	/^b = 1.337 # float$/;"	v
-b	examples.py	/^b = 3$/;"	v
-c	examples.py	/^a, b, c = (-50, 20, 'test')$/;"	v
-c	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
-c	examples.py	/^c = a or b$/;"	v
-capitals	examples.py	/^capitals = {$/;"	v
-colors_list	examples.py	/^colors_list = ['Orange', 'Green', 'Blue', 'Purple', 'Pink', 'Red', 'White']$/;"	v
-d	examples.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
-d	examples.py	/^d, e = ['Hi', 'Hello']$/;"	v
-devops_cols	examples.py	/^devops_cols = {dev: col for dev, col in zip(devops_list, colors_list)}$/;"	v
-devops_list	examples.py	/^devops_list = ['Aaron', 'Alemseged', 'Emanuel', 'Frauke', 'Nehru', 'Peleg', 'Satya']$/;"	v
-e	examples.py	/^d, e = ['Hi', 'Hello']$/;"	v
-even_nums	examples.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
-func	mybetterlib.py	/^def func(n):$/;"	f
+A	basic_python.py	/^A = [1, 2, 3, 4]$/;"	v
+N	optimizations.py	/^N = 100000$/;"	v
+Point	common_mistakes.py	/^Point = namedtuple('Point', ['x', 'y'])$/;"	v
+X	basic_python.py	/^X = ['a', 'b']$/;"	v
+a	basic_python.py	/^a = 2$/;"	v
+a	common_mistakes.py	/^a = 'foo'$/;"	v
+a	common_mistakes.py	/^a = -1$/;"	v
+a	common_mistakes.py	/^a = 3.1$/;"	v
+a	common_mistakes.py	/^a = 30 # int$/;"	v
+a	common_mistakes.py	/^a = True and False$/;"	v
+a	common_mistakes.py	/^a = b = c = 0$/;"	v
+a	common_mistakes.py	/^a, b, c = (-50, 20, 'test')$/;"	v
+a	common_mistakes.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+animals_list	common_mistakes.py	/^animals_list = ['Dog', 'Cat', 'Turtle', 'Rabbit', 'Bear', 'Tapir', 'Dolphin']$/;"	v
+animals_list	common_mistakes.py	/^animals_list = ['Tapir', 'Dog', 'Cat', 'Turtle', 'Bear']$/;"	v
+animals_list	common_mistakes.py	/^animals_list = ['Tapir', 'Dog', 'Cat', 'Turtle']$/;"	v
+append	optimizations.py	/^def append(n):$/;"	f
+arr	common_mistakes.py	/^arr = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
+b	basic_python.py	/^b = 1.5$/;"	v
+b	basic_python.py	/^b = True and False$/;"	v
+b	common_mistakes.py	/^a, b, c = (-50, 20, 'test')$/;"	v
+b	common_mistakes.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+b	common_mistakes.py	/^b = 'text'$/;"	v
+b	common_mistakes.py	/^b = 1 < 5$/;"	v
+b	common_mistakes.py	/^b = 1.337 # float$/;"	v
+b	common_mistakes.py	/^b = 3$/;"	v
+c	common_mistakes.py	/^a, b, c = (-50, 20, 'test')$/;"	v
+c	common_mistakes.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+c	common_mistakes.py	/^c = a or b$/;"	v
+capitals	basic_python.py	/^capitals = {$/;"	v
+capitals	common_mistakes.py	/^capitals = {$/;"	v
+colors_list	common_mistakes.py	/^colors_list = ['Orange', 'Green', 'Blue', 'Purple', 'Pink', 'Red', 'White']$/;"	v
+comprh	optimizations.py	/^def comprh(n):$/;"	f
+d	common_mistakes.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
+d	common_mistakes.py	/^d, e = ['Hi', 'Hello']$/;"	v
+devops_cols	common_mistakes.py	/^devops_cols = {dev: col for dev, col in zip(devops_list, colors_list)}$/;"	v
+devops_list	common_mistakes.py	/^devops_list = ['Aaron', 'Alemseged', 'Emanuel', 'Frauke', 'Nehru', 'Peleg', 'Satya']$/;"	v
+e	common_mistakes.py	/^d, e = ['Hi', 'Hello']$/;"	v
+even_nums	common_mistakes.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
 func	mylib.py	/^def func(n):$/;"	f
-jumping_nums	examples.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
-len	mybetterlib.py	/^    def len(self):$/;"	m	class:xstr
+i	basic_python.py	/^i = 0$/;"	v
+jumping_nums	common_mistakes.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
+l	basic_python.py	/^l = [1, 2, -3, 'a', False, 7.5]$/;"	v
 len	mylib.py	/^    def len(self):$/;"	m	class:xstr
-letters	examples.py	/^letters = ['a', 'b', 'c', 'd', 'e']$/;"	v
-lib	examples.py	/^import mylib as lib$/;"	I	nameref:module:mylib
-lines_len	examples.py	/^    lines_len = {$/;"	v
-lst	examples.py	/^lst = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
-lst	examples.py	/^lst = [(n, l) for n in nums for l in letters]$/;"	v
-lst	examples.py	/^lst = [(n, l) for n, l in zip(nums, letters)]$/;"	v
-lst	examples.py	/^lst = [1, 'a', True, 'cow', [0, 1, 2, 3], 2, somefunc, 5]$/;"	v
-lst	examples.py	/^lst = [1,2,3,4,5]$/;"	v
-mltxt1	examples.py	/^mltxt1 = """$/;"	v
-mltxt2	examples.py	/^mltxt2 = '''$/;"	v
-natlang	examples.py	/^natlang = {$/;"	v
-nums	examples.py	/^nums = [1, 2, 3, 4, 5]$/;"	v
-p	examples.py	/^p = Point(3, -5)$/;"	v
-pi	examples.py	/^pi = 3.1415926535897932384626433 # another float$/;"	v
-somefunc	examples.py	/^def somefunc():$/;"	f
-st	examples.py	/^st = set([1, 2, 3, 1, 2, 1, 1, 3, 4, 5, 1, 2, 1, 1, 5])$/;"	v
-st2	examples.py	/^st2 = set([True, (1,1,1), (1,1,1), None, (1,1,1,1), False, (1,1,1), (1,1,1,1), True, None, None]/;"	v
-tup	examples.py	/^tup = (1, 5, 'b', False, (0, 0, 0), [1, 1, 1])$/;"	v
-txt	examples.py	/^    txt = file.read()$/;"	v
-txt	examples.py	/^    txt = file.readlines()$/;"	v
-txt	examples.py	/^txt = """$/;"	v
-txt1	examples.py	/^txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \\", must be escaped."$/;"	v
-txt2	examples.py	/^txt2 = 'I\\'m also a text! Here\\'s a quote: "bla bla bla".'$/;"	v
-word_count	examples.py	/^    word_count = [len(line.split()) for line in file.readlines()]$/;"	v
-word_count	examples.py	/^word_count = []$/;"	v
-words_list	examples.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo', 'aaa', 'ooo']$/;"	v
-words_list	examples.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
-x	examples.py	/^x = 64321277$/;"	v
-xs	examples.py	/^xs = [1, 2, 3, 4, 5, 6, 7]$/;"	v
-xstr	mybetterlib.py	/^class xstr(UserString):$/;"	c
+letters	common_mistakes.py	/^letters = ['a', 'b', 'c', 'd', 'e']$/;"	v
+lib	common_mistakes.py	/^import mylib as lib$/;"	I	nameref:module:mylib
+lines_len	common_mistakes.py	/^    lines_len = {$/;"	v
+lst	common_mistakes.py	/^lst = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
+lst	common_mistakes.py	/^lst = [(n, l) for n in nums for l in letters]$/;"	v
+lst	common_mistakes.py	/^lst = [(n, l) for n, l in zip(nums, letters)]$/;"	v
+lst	common_mistakes.py	/^lst = [1, 'a', True, 'cow', [0, 1, 2, 3], 2, somefunc, 5]$/;"	v
+lst	common_mistakes.py	/^lst = [1,2,3,4,5]$/;"	v
+mltxt1	common_mistakes.py	/^mltxt1 = """$/;"	v
+mltxt2	common_mistakes.py	/^mltxt2 = '''$/;"	v
+n	basic_python.py	/^n = 3$/;"	v
+natlang	common_mistakes.py	/^natlang = {$/;"	v
+np	basic_python.py	/^import numpy as np$/;"	I	nameref:module:numpy
+npsum	optimizations.py	/^from numpy import arange, sum as npsum$/;"	x	nameref:unknown:sum
+nums	common_mistakes.py	/^nums = [1, 2, 3, 4, 5]$/;"	v
+p	common_mistakes.py	/^p = Point(3, -5)$/;"	v
+perms	basic_python.py	/^from itertools import permutations as perms$/;"	x	nameref:unknown:permutations
+pi	common_mistakes.py	/^pi = 3.1415926535897932384626433 # another float$/;"	v
+reps	optimizations.py	/^reps = 200$/;"	v
+reps	optimizations.py	/^reps = 50$/;"	v
+s	basic_python.py	/^s = "something"$/;"	v
+somefunc	common_mistakes.py	/^def somefunc():$/;"	f
+sqr	basic_python.py	/^def sqr(n):$/;"	f
+st	common_mistakes.py	/^st = set([1, 2, 3, 1, 2, 1, 1, 3, 4, 5, 1, 2, 1, 1, 5])$/;"	v
+st2	common_mistakes.py	/^st2 = set([True, (1,1,1), (1,1,1), None, (1,1,1,1), False, (1,1,1), (1,1,1,1), True, None, None]/;"	v
+sum_direct	optimizations.py	/^def sum_direct(n):$/;"	f
+sum_for	optimizations.py	/^def sum_for(n):$/;"	f
+sum_np_arange	optimizations.py	/^def sum_np_arange(n):$/;"	f
+sum_numpy	optimizations.py	/^def sum_numpy(n):$/;"	f
+sum_while	optimizations.py	/^def sum_while(n):$/;"	f
+t1	optimizations.py	/^t1 = Timer(lambda: append(N))$/;"	v
+t1	optimizations.py	/^t1 = Timer(lambda: sum_while(N))$/;"	v
+t2	optimizations.py	/^t2 = Timer(lambda: comprh(N))$/;"	v
+t2	optimizations.py	/^t2 = Timer(lambda: sum_for(N))$/;"	v
+t3	optimizations.py	/^t3 = Timer(lambda: sum_direct(N))$/;"	v
+t4	optimizations.py	/^t4 = Timer(lambda: sum_numpy(N))$/;"	v
+t5	optimizations.py	/^t5 = Timer(lambda: sum_np_arange(N))$/;"	v
+tup	common_mistakes.py	/^tup = (1, 5, 'b', False, (0, 0, 0), [1, 1, 1])$/;"	v
+txt	common_mistakes.py	/^    txt = file.read()$/;"	v
+txt	common_mistakes.py	/^    txt = file.readlines()$/;"	v
+txt	common_mistakes.py	/^txt = """$/;"	v
+txt1	common_mistakes.py	/^txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \\", must be escaped."$/;"	v
+txt2	common_mistakes.py	/^txt2 = 'I\\'m also a text! Here\\'s a quote: "bla bla bla".'$/;"	v
+word_count	common_mistakes.py	/^    word_count = [len(line.split()) for line in file.readlines()]$/;"	v
+word_count	common_mistakes.py	/^word_count = []$/;"	v
+words_list	common_mistakes.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo', 'aaa', 'ooo']$/;"	v
+words_list	common_mistakes.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
+x	basic_python.py	/^x = 2.5 + 0.1$/;"	v
+x	common_mistakes.py	/^x = 64321277$/;"	v
+xs	common_mistakes.py	/^xs = [1, 2, 3, 4, 5, 6, 7]$/;"	v
 xstr	mylib.py	/^class xstr(UserString):$/;"	c
-ys	examples.py	/^ys = [x**2 for x in xs]$/;"	v
+ys	common_mistakes.py	/^ys = [x**2 for x in xs]$/;"	v
+z	basic_python.py	/^z = 1 + 2j$/;"	v
