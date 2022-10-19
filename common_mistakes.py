@@ -13,6 +13,7 @@ Section ideas
 11. Good libs to use: logging, argparse, itertools, etc.
 12. NUMPY
 13. if __name__ == '__main__'
+13. generators
 """
 # ------------------------------------------------ #
 
@@ -333,3 +334,13 @@ import sys
 sys.path.append(".")
 import mylib as lib
 print(lib.func(2))
+
+# ------------------------------------------------ #
+
+##########################
+# (non)mutable variables #
+##########################
+
+
+
+
