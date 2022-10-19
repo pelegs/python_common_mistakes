@@ -10,11 +10,9 @@ print(n, x, z, s, b)
 # print(s + str(n))
 
 # ----- Strings ----- #
-# ' vs "... there is no difference!
 txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \", must be escaped."
 txt2 = 'I\'m also a text! Here\'s a quote: "bla bla bla".'
 
-# Multiline strings
 mltxt1 = """
 I'm a string with several lines.
 It's easy to use me :)
@@ -28,7 +26,6 @@ I can use single quotes because I only exist between two pairs of three consequt
 '''
 print(mltxt2)
 
-# Basic use of f-strings
 a = 'foo'
 b = 3
 print('my var is a=', a, 'and also b=', b, '.')
@@ -40,7 +37,6 @@ print('my var is a=', a, 'and also b=', b, '.')
 # Hooray!
 # """)
 
-# Number formatting
 a = 30 # int
 print(f'a = {a:04d}')
 
@@ -112,6 +108,11 @@ print(func(1, 1))
 def no_return(a):
     print(f'You entered "{a}"')
 no_return(4)
+
+def sum(a: int, b: int) -> int:
+    return a+b
+test = sum(1, 4.4)
+print(type(test))
 
 # ----- Classes ----- #
 class Person:

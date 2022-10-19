@@ -22,10 +22,8 @@ __str__	basic_python.py	/^    def __str__(self):$/;"	m	class:Person
 a	basic_python.py	/^a = 'foo'$/;"	v
 a	basic_python.py	/^a = 2$/;"	v
 a	basic_python.py	/^a = 30 # int$/;"	v
-a	common_mistakes.py	/^a = 'foo'$/;"	v
 a	common_mistakes.py	/^a = -1$/;"	v
 a	common_mistakes.py	/^a = 3.1$/;"	v
-a	common_mistakes.py	/^a = 30 # int$/;"	v
 a	common_mistakes.py	/^a = True and False$/;"	v
 a	common_mistakes.py	/^a = b = c = 0$/;"	v
 a	common_mistakes.py	/^a, b, c = (-50, 20, 'test')$/;"	v
@@ -43,8 +41,6 @@ b	common_mistakes.py	/^a, b, c = (-50, 20, 'test')$/;"	v
 b	common_mistakes.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
 b	common_mistakes.py	/^b = 'text'$/;"	v
 b	common_mistakes.py	/^b = 1 < 5$/;"	v
-b	common_mistakes.py	/^b = 1.337 # float$/;"	v
-b	common_mistakes.py	/^b = 3$/;"	v
 c	common_mistakes.py	/^a, b, c = (-50, 20, 'test')$/;"	v
 c	common_mistakes.py	/^a, b, c, d = 10, 20, -50, 35$/;"	v
 c	common_mistakes.py	/^c = a or b$/;"	v
@@ -60,6 +56,7 @@ e	basic_python.py	/^e = Employee('Jane', 'Doe', 'exocad')$/;"	v
 e	common_mistakes.py	/^d, e = ['Hi', 'Hello']$/;"	v
 even_nums	common_mistakes.py	/^even_nums = [n for n in range(20) if n%2==0]$/;"	v
 func	basic_python.py	/^def func(x, y, z=10):$/;"	f
+func	common_mistakes.py	/^def func(x, lst=[]):$/;"	f
 func	mylib.py	/^def func(n):$/;"	f
 i	basic_python.py	/^i = 0$/;"	v
 jumping_nums	common_mistakes.py	/^jumping_nums = [n if n%2==0 else -n for n in range(20)]$/;"	v
@@ -74,9 +71,7 @@ lst	common_mistakes.py	/^lst = [(n, l) for n, l in zip(nums, letters)]$/;"	v
 lst	common_mistakes.py	/^lst = [1, 'a', True, 'cow', [0, 1, 2, 3], 2, somefunc, 5]$/;"	v
 lst	common_mistakes.py	/^lst = [1,2,3,4,5]$/;"	v
 mltxt1	basic_python.py	/^mltxt1 = """$/;"	v
-mltxt1	common_mistakes.py	/^mltxt1 = """$/;"	v
 mltxt2	basic_python.py	/^mltxt2 = '''$/;"	v
-mltxt2	common_mistakes.py	/^mltxt2 = '''$/;"	v
 n	basic_python.py	/^n = 3$/;"	v
 natlang	common_mistakes.py	/^natlang = {$/;"	v
 no_return	basic_python.py	/^def no_return(a):$/;"	f
@@ -87,7 +82,6 @@ p	basic_python.py	/^p = Person('Danny', 'Mendel')$/;"	v
 p	common_mistakes.py	/^p = Point(3, -5)$/;"	v
 perms	basic_python.py	/^from itertools import permutations as perms$/;"	x	nameref:unknown:permutations
 pi	basic_python.py	/^pi = 3.1415926535897932384626433 # another float$/;"	v
-pi	common_mistakes.py	/^pi = 3.1415926535897932384626433 # another float$/;"	v
 reps	optimizations.py	/^reps = 200$/;"	v
 reps	optimizations.py	/^reps = 50$/;"	v
 s	basic_python.py	/^s = "something"$/;"	v
@@ -95,6 +89,7 @@ somefunc	common_mistakes.py	/^def somefunc():$/;"	f
 sqr	basic_python.py	/^def sqr(n):$/;"	f
 st	common_mistakes.py	/^st = set([1, 2, 3, 1, 2, 1, 1, 3, 4, 5, 1, 2, 1, 1, 5])$/;"	v
 st2	common_mistakes.py	/^st2 = set([True, (1,1,1), (1,1,1), None, (1,1,1,1), False, (1,1,1), (1,1,1,1), True, None, None]/;"	v
+sum	basic_python.py	/^def sum(a: int, b: int) -> int:$/;"	f	typeref:typename:int
 sum_direct	optimizations.py	/^def sum_direct(n):$/;"	f
 sum_for	optimizations.py	/^def sum_for(n):$/;"	f
 sum_np_arange	optimizations.py	/^def sum_np_arange(n):$/;"	f
@@ -107,21 +102,19 @@ t2	optimizations.py	/^t2 = Timer(lambda: sum_for(N))$/;"	v
 t3	optimizations.py	/^t3 = Timer(lambda: sum_direct(N))$/;"	v
 t4	optimizations.py	/^t4 = Timer(lambda: sum_numpy(N))$/;"	v
 t5	optimizations.py	/^t5 = Timer(lambda: sum_np_arange(N))$/;"	v
+test	basic_python.py	/^test = sum(1, 4.4)$/;"	v
 tup	common_mistakes.py	/^tup = (1, 5, 'b', False, (0, 0, 0), [1, 1, 1])$/;"	v
 txt	common_mistakes.py	/^    txt = file.read()$/;"	v
 txt	common_mistakes.py	/^    txt = file.readlines()$/;"	v
 txt	common_mistakes.py	/^txt = """$/;"	v
 txt1	basic_python.py	/^txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \\", must be escaped."$/;"	v
-txt1	common_mistakes.py	/^txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \\", must be escaped."$/;"	v
 txt2	basic_python.py	/^txt2 = 'I\\'m also a text! Here\\'s a quote: "bla bla bla".'$/;"	v
-txt2	common_mistakes.py	/^txt2 = 'I\\'m also a text! Here\\'s a quote: "bla bla bla".'$/;"	v
 word_count	common_mistakes.py	/^    word_count = [len(line.split()) for line in file.readlines()]$/;"	v
 word_count	common_mistakes.py	/^word_count = []$/;"	v
 words_list	common_mistakes.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo', 'aaa', 'ooo']$/;"	v
 words_list	common_mistakes.py	/^words_list = ['foo', 'bar', 'baz', 'bla', 'yo']$/;"	v
 x	basic_python.py	/^x = 2.5 + 0.1$/;"	v
 x	basic_python.py	/^x = 64321277$/;"	v
-x	common_mistakes.py	/^x = 64321277$/;"	v
 xs	common_mistakes.py	/^xs = [1, 2, 3, 4, 5, 6, 7]$/;"	v
 xstr	mylib.py	/^class xstr(UserString):$/;"	c
 ys	common_mistakes.py	/^ys = [x**2 for x in xs]$/;"	v

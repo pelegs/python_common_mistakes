@@ -21,51 +21,6 @@ Section ideas
 # String formatting #
 #####################
 
-# ' vs "... there is no difference!
-txt1 = "I'm a text, and I can use single quotes. Double quotes, i.e. \", must be escaped."
-txt2 = 'I\'m also a text! Here\'s a quote: "bla bla bla".'
-
-# Multiline strings
-mltxt1 = """
-I'm a string with several lines.
-It's easy to use me :)
-Have a nice day!
-"""
-print(mltxt1)
-
-mltxt2 = '''
-I'm a another multi-line string.
-I can use single quotes because I only exist between two pairs of three consequtive quotes.
-'''
-print(mltxt2)
-
-# Basic use of f-strings
-a = 'foo'
-b = 3
-# print('my var is a=', a, 'and also b=', b, '.')
-# print('my var is a=' + a + 'and also b=' + b + '.')
-# print('my var is a=' + a + ' and also b=' + str(b) + '.')
-# print(f'my var is {a}, and also b={b}.')
-# print(f"""Multiline strings can also be formatted.
-# Here for example a = '{a}' and b = {b}.
-# Hooray!
-# """)
-
-# Number formatting
-a = 30 # int
-print(f'a = {a:04d}')
-
-b = 1.337 # float
-print(f'b = {b:0.2f}')
-print(f'b = {b:0.5f}')
-
-pi = 3.1415926535897932384626433 # another float
-print(f'π = {pi:0.10f}...')
-
-x = 64321277
-print(f'x = {x:e}') # scientific
-print(f'x = {x:x}') # hexadecimal
-
 # Lists, dictionaries and functions
 lst = [1,2,3,4,5]
 print(f'l = {lst[2]}')
@@ -337,10 +292,15 @@ print(lib.func(2))
 
 # ------------------------------------------------ #
 
-##########################
-# (non)mutable variables #
-##########################
+###################################
+# Code can run before evaluation! #
+###################################
 
+def func(x, lst=[]):
+    lst.append(x)
+    print(lst)
 
-
-
+if __name__ == "__main__":
+    func(1)
+    func('A')
+    print(func.__defaults__)
