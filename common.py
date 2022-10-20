@@ -1,20 +1,3 @@
-"""
-Section ideas
-1. loops
-2. assignment
-3. comprehensions
-4. file handling
-5. mutable types
-6. string formatting
-7. type checking
-8. singleton (in)equalities
-9. bool vs. length
-10. dict items() function
-11. Good libs to use: logging, argparse, itertools, etc.
-12. NUMPY
-13. if __name__ == '__main__'
-13. generators
-"""
 # ------------------------------------------------ #
 
 #####################
@@ -300,9 +283,26 @@ def func(x, lst=[]):
     lst.append(x)
     print(lst)
 
+# def func(x, lst=None):
+#     if lst is None:
+#         lst = []
+#     lst.append(x)
+#     print(lst)
+
 if __name__ == "__main__":
     func(1)
     func('A')
     print(func.__defaults__)
 
+
 # ------------------------------------------------ #
+
+"""
+More stuff
+0. None vs False, is vs ==
+1. Element in array
+1. mutable types
+2. singleton (in)equalities
+3. Good libs to use: logging, argparse, itertools, etc.
+4. NUMPY
+"""
