@@ -80,7 +80,6 @@ natlang	common.py	/^natlang = {$/;"	v
 no_return	basic_python.py	/^def no_return(a):$/;"	f
 np	basic_python.py	/^import numpy as np$/;"	I	nameref:module:numpy
 npsum	optimizations.py	/^from numpy import arange, sum as npsum$/;"	x	nameref:unknown:sum
-numbers	mem_test.py	/^numbers = uniform(size=10000)$/;"	v
 numbers	optimizations.py	/^numbers = uniform(size=10000)$/;"	v
 nums	common.py	/^nums = [1, 2, 3, 4, 5]$/;"	v
 p	basic_python.py	/^p = Person('Danny', 'Mendel')$/;"	v
@@ -94,9 +93,7 @@ reps	optimizations.py	/^reps = 50$/;"	v
 s	basic_python.py	/^s = "something"$/;"	v
 somefunc	common.py	/^def somefunc():$/;"	f
 sqr	basic_python.py	/^def sqr(n):$/;"	f
-sqr_gen	mem_test.py	/^def sqr_gen(nums):$/;"	f
 sqr_gen	optimizations.py	/^def sqr_gen(nums):$/;"	f
-sqr_list	mem_test.py	/^def sqr_list(nums):$/;"	f
 sqr_list	optimizations.py	/^def sqr_list(nums):$/;"	f
 st	common.py	/^st = set([1, 2, 3, 1, 2, 1, 1, 3, 4, 5, 1, 2, 1, 1, 5])$/;"	v
 st2	common.py	/^st2 = set([True, (1,1,1), (1,1,1), None, (1,1,1,1), False, (1,1,1), (1,1,1,1), True, None, None]/;"	v
