@@ -73,6 +73,7 @@ print(f"""
     comprhension:  {t2.timeit(reps)}.
 """)
 
+
 # ------- Generators ------- #
 def generator():
     yield 1
@@ -92,15 +93,18 @@ for x in generator():
 from timeit import timeit, Timer
 from numpy.random import uniform
 
+
 def sqr_list(nums):
     sqrs = []
     for n in nums:
         sqrs.append(n**2)
     return sqrs
 
+
 def sqr_gen(nums):
     for n in nums:
         yield n**2
+
 
 # Measure run time
 numbers = uniform(size=10000)
@@ -108,9 +112,9 @@ numbers = uniform(size=10000)
 t1 = Timer(lambda: sqr_list(numbers))
 t2 = Timer(lambda: sqr_gen(numbers))
 t3 = Timer(lambda: [x for x in sqr_gen(numbers)])
-reps = 100 # List should be faster
+reps = 100  # List should be faster
 # reps = 1000 # Generator should be faster
-iterator =  t1.timeit(reps)
+iterator = t1.timeit(reps)
 generator = t2.timeit(reps)
 print(f"""
 iterator:  {t1.timeit(reps)},
